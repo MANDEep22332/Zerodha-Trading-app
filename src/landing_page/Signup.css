@@ -1,0 +1,33 @@
+
+
+
+.form_container h2{
+   text-align: center;
+}
+
+
+.emailDiv{
+    width: 600px;
+    margin: auto;
+}
+
+.passwordDiv{
+    width: 600px;
+    margin: auto;
+}
+
+.userDiv{
+     width: 600px;
+    margin: auto;
+}
+
+.ButtonDiv{
+    width: 600px;
+    margin: auto;}
+
+.link:hover{
+    color: #219ebc;
+    font-size: 1.05rem;
+
+
+}
