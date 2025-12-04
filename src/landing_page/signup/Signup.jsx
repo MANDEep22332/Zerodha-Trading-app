@@ -47,7 +47,7 @@ const Signup = () => {
       if (success) {
         handleSuccess(message);
         setTimeout(() => {
-        window.location.href = "https://dashboard-ttcl.onrender.com";
+        window.location.href = "https://zerodha-dashborad.netlify.app/";
         }, 1000);
       } else {
         handleError(message);
