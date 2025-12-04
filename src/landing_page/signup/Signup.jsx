@@ -36,7 +36,7 @@ const Signup = () => {
     e.preventDefault();
     try {
       const { data } = await axios.post(
-        "http://localhost:3002/signup",
+        "https://zerodh-backend-adii.onrender.com/signup",
         {
           ...inputValue,
         },
@@ -47,7 +47,7 @@ const Signup = () => {
       if (success) {
         handleSuccess(message);
         setTimeout(() => {
-        window.location.href = "http://localhost:3001/";
+        window.location.href = "https://dashboard-ttcl.onrender.com";
         }, 1000);
       } else {
         handleError(message);

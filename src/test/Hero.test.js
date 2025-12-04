@@ -6,6 +6,7 @@ import Hero from "../landing_page/home/Hero";
 
 describe("Hero Component", () => {
   test("renders Hero component with correct text", () => {
+    
     render(<Hero />);
     const heroImage = screen.getByAltText("Hero Image");
   

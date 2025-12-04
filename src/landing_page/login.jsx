@@ -32,7 +32,7 @@ const Login = () => {
     e.preventDefault();
     try {
       const { data } = await axios.post(
-        "http://localhost:3002/login",
+        "https://zerodh-backend-adii.onrender.com/login",
         {
           ...inputValue,
         },
@@ -43,7 +43,7 @@ const Login = () => {
       if (success) {
         handleSuccess(message);
         setTimeout(() => {
-          window.location.href = "http://localhost:3001/";
+          window.location.href = "https://dashboard-ttcl.onrender.com/";
         }, 1000);
       } else {
         handleError(message);
