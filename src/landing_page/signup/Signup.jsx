@@ -47,7 +47,7 @@ const Signup = () => {
       if (success) {
         handleSuccess(message);
         setTimeout(() => {
-        window.location.href = "https://zerodha-dashborad.netlify.app/";
+        window.location.href = "https://zerodha-vho1.onrender.com/";
         }, 1000);
       } else {
         handleError(message);
